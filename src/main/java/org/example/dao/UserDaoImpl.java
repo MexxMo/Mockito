@@ -6,7 +6,7 @@ import org.example.model.User;
 import java.util.List;
 
 public class UserDaoImpl implements UserDao {
-    public final List<User> users;
+    private final List<User> users;
 
     public UserDaoImpl() {
         users = List.of(
